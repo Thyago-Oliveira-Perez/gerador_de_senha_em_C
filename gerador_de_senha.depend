@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1639495316 source:c:\users\teaminfra\documents\codigos\gerador_de_senha\main.c
+	<stdio.h>
+	<conio.h>
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+
+1639577198 source:c:\users\teaminfra\desktop\codigos\gerador_de_senha\main.c
+	<stdio.h>
+	<conio.h>
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+
+1643838242 source:c:\users\thyag\desktop\gerador_de_senha\main.c
+	<stdio.h>
+	<conio.h>
+	<stdlib.h>
+	<stdio.h>
+	<time.h>
+
