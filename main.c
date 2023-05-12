@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <conio.h>
+#include "functions.h"
 
 int main(int argc, char const *argv[])
 {
@@ -7,10 +7,9 @@ int main(int argc, char const *argv[])
 
   printf("Welcome!\n");
 
-  printf("Type your name:");
-  gets(name);
+  getPassword();
 
-  printf("\nThis program is in production yet.\nThanks for comming, %s", name);
+  getch();
 
   return 0;
 }
