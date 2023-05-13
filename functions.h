@@ -2,4 +2,6 @@
 
 void menu();
 
-void getPassword();
+void newPassword();
+
+char *generatePassword(int password_length);
