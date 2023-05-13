@@ -1,15 +1,13 @@
 #include <stdio.h>
 #include "functions.h"
+#include <conio.h>
 
 int main(int argc, char const *argv[])
 {
-  char name[30];
-
   printf("Welcome!\n");
 
-  getPassword();
+  menu();
 
   getch();
-
   return 0;
 }
