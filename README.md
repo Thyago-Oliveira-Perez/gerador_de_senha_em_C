@@ -14,8 +14,8 @@ Projeto feito para estudar conceitos básicos de programação, utilizando lingu
 
 ```
 
-## Running the app
+## Compiling the app
 
 ```bash
-$
+$ gcc -Wall main.c functions.c -o password_generator -lm
 ```
