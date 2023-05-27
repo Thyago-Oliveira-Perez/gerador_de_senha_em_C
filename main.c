@@ -8,6 +8,5 @@ int main(int argc, char const *argv[])
 
   menu();
 
-  getch();
   return 0;
 }

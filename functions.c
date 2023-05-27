@@ -7,7 +7,7 @@
 #define PASSWORD_TYPE_SIMPLE 1
 #define PASSWORD_TYPE_COMPLEX 2
 
-char *generateSimplePassword(int password_length)
+char *generatePassword(int password_length)
 {
   char password[password_length];
   char caracteres[63] = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M',
@@ -31,7 +31,7 @@ void newPassword()
   printf("Type the size of the password: ");
   scanf("%d", &password_length);
 
-  generateSimplePassword(password_length);
+  generatePassword(password_length);
 }
 
 void menu()

@@ -4,4 +4,4 @@ void menu();
 
 void newPassword();
 
-char *generateSimplePassword(int password_length);
+char *generatePassword(int password_length);
